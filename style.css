@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/*navigacija*/
+/*==============*/
+/*======Matej Prtenjača=====*/
+.navbar{
+	height: 75px;
+}
+.navbar-nav{
+	position: relative;
+	top: 5px;
+}
+nav {
+	transition: all 1s;
+}
+nav a {
+	font-family: 'Work Sans', sans-serif !important;
+  	padding-top: 20px !important;
+  	padding-bottom: 10px !important;
+  	font-size: 17px;
+}
+.navbar-inverse{
+    background-color:#f00;
+    }
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+nav.navbar{
+	background-color: black;
+	border-bottom: 0px;
+
+}
+li{
+	background-color: black;
+}
+.collapse.in{
+	background-color: black !important;
+}
+
+li.active a {
+ 	color: red !important; 
+}
+li a{
+	color: rgb(255,255,255) !important;
+}
+
+li a:hover{
+	color: rgb(150,20,28) !important;
+}
+li.active .tst {
+ 	border-bottom: 3px solid red;
+ 	padding-bottom: 9px;
+}
+li a:hover .tst{
+	border-bottom: 3px solid red;
+	padding-bottom: 9px;
+}
+.search{
+    position: relative;
+    margin-top: 18px;
+    right: 7%;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+/*==============*/
+/*Početna - ulaz */
+/*======Domagoj Paradzikovic=====*/
+.home {
+	background-color: grey;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	color: white;
+	margin-top: 40px;
+}
+.title{
+	margin-top: 200px;
+}
+.title h1{
+	font-weight: bold;
+	font-size: 60px;
+	color: white;
+	text-shadow: 5px 5px black;
+}
+.title p{
+	font-size: 17px;
+}
+.description{
+	margin-top: 50px;
+}
+.logo{
+   padding-top: 200px;
+}
+/*==============*/
+/*Početna - zajednicka+info */
+.abt{
+	position: relative;
+	top: 90px;
+	color: black;
+	font-family: 'Work Sans', sans-serif;
+}
+img{
+	width: 100%;
+}
+.abt h2{
+	color: #ef1e23;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	line-height: 33px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+.info p{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+}
+.info{
+	padding-top: 20px;
+}
+.dolje{
+	padding-top: 90px;
+}
+.spustip{
+    padding-top: 30px;
+}
+.spusti_sliku{
+    padding-top: 50px;
+}
+/*==============*/
+/*Početna - link+popratni tekst */
+#naslov1 h3{
+    text-align: center;
+    color: #ef1e23;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	line-height: 33px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+.linkPozadina{
+    background-color: #f5f2f2;
+}
+.linkPozadina p{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+}
+#tekst{
+    padding-top: 30px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+.menub a{
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	padding: 20px;
+	background-color: black;
+	text-decoration: none !important;
+	transition: background-color 0.5s;
+}
+.menub a:hover{
+	color: white;
+	background-color: red;
+	opacity: 1;
+}
+.menub{
+	position: relative;
+	top: -40px;
+}
+.spusti_gumb{
+    padding-top: 70px;
+}
+/*======Ante Piškovic=====*/
+/*FOOTER===============*/
+.footer{
+	background-color: black;
+	height: 400px;
+}
+.ende p{
+	text-align: center;
+	color: white;
+}
+.ende{
+	padding-top: 20px;
+}
+.ikone i{
+	font-size: 30px;
+	padding: 20px;
+	border-radius: 50%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	transition: font-size 0.5s;
+	position: relative;
+	float: left;
+	margin-left: 5%;
+}
+.ikone i:hover{
+	color: white;
+	background-color: red;
+	font-size: 40px;
+}
+.ikone h2{
+	padding-left: 35%;
+}
+.crveno{
+	color: red;
+}
+.odjava h2{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.line{
+    width: 50%;
+    height: 47px;
+    border-bottom: 1px solid white;
+    position: relative;
+    margin: 0 auto;
+    }
+    /*=================================*/
+    /*Clanovi.php*/
+	/*======Dominik Mikulić=====*/
+	
+    .clanovi  {
+        background-color: grey;
+        height: 250px;
+        color: white;
+        margin-top: 40px;
+    }
+
+
+    .title{
+        margin-top: 100px;
+    }
+    .title h1{
+        font-weight: bold;
+        font-size: 40px;
+        color: white;
+        text-shadow: 5px 5px black;
+        text-align: center;
+    }
+    .social a{
+        font-size: 40px;
+        padding: 20px;
+       
+        color: black;
+        text-align: center;
+        transition: font-size 0.5s;
+        position: relative;
+        float: left;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .social a:hover{
+        color: white;
+        background-color: grey;
+        font-size: 45px;
+        border-radius: 50%;
+    }
+    .social h2{
+       text-align: center;
+    }
+    .obojaj{
+        background-color: lightgray;
+    }
+    .dole{
+        margin-top: 90px;
+    }
+    .profilna img{
+        width: 80%;
+    }
+	.spusti_odlomak{
+		padding-top: 60px;
+	}
+
+	    /*=================================*/
+    /*Galerija.php*/
+	/*======Domagoj Paradžiković=====*/
+	#gallery {
+		padding-top: 80px;
+		/*height: 900px;*/
+		padding-bottom: 50px;
+	}
+	#gallery h2{
+		text-align: center;
+	}
+	.gallery-img{
+		margin-left: 2%;
+		width: 31%;
+	}
+	.margin-top{
+		margin-top: 2%;
+	}
+	img{
+		width: 100%;
+	}
+	.gallery-img:hover{
+		opacity: 0.6;
+	}
+
+
+
+
+		    /*=================================*/
+    /*RESPONZIVNOST*/
+	/*======Ante Piskovic=====*/
+
+
+	@media (max-width: 1200px){
+
+			.title h1{
+		font-weight: bold;
+		font-size: 40px;
+		text-shadow: 5px 5px black;
+	}
+		.title p{
+		font-size: 17px;
+		text-align: center;
+	}
+	.logo{
+		padding-top: 60px;
+	 }
+	 .logo img{
+		width: 80%;
+	 }
+	 .gallery-img{
+		margin-left: 2%;
+		width: 100%;
+	}
+	}
+
+
+
+	@media (max-width: 990px){
+		.ikone i{
+			font-size: 25px;
+			padding: 20px;
+			border-radius: 50%;
+			background-color: white;
+			color: black;
+			text-align: center;
+			transition: font-size 0.5s;
+			position: relative;
+			float: left;
+			margin-left: 5%;
+		}
+		.ikone i:hover{
+			color: white;
+			background-color: red;
+			font-size: 40px;
+		}
+		.ikone h2{
+			padding-left: 30%;
+		}
+		.naviprilagodba{
+			background-color: black;
+		}
+		.search{
+			position: relative;
+			margin-top: 18px;
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
+
+
+	@media (max-width: 540px){
+		.ikone h2{
+			padding-left: 25%;
+		}
+		.search{
+			position: relative;
+			margin-top: 18px;
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
