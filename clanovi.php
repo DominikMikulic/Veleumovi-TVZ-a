@@ -111,5 +111,33 @@
                 </div>
                 </div>
                 </div>
+
+                <footer>
+
+                  <div class="container-fluid footer dolje">
+                    <div class="container">
+                    <div class="row">
+                      <div class="col-12 odjava">
+                        <h2>VELEUMOVI TVZ-A</h2>
+                        <div class="line"></div>
+
+                    </div>
+                    <div class="row ende">
+                      <p>Copyright ©2021 <span class="crveno">Veleumovi TVZ-a.</span> All Rights Reserved.</p>
+                      <p>Website designed by Veleumovi TVZ-a</p>
+                    
+                    </div>
+                    <div class="row ikone">
+                          <div class="col-12">
+                      <h2><a href=""><i class="fab fa-facebook"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href=""><i class="fab fa-twitter"></i></a></h2>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+        
+                </footer>
+
 </body>
 </html>
