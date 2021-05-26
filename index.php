@@ -44,7 +44,62 @@
     </div>
   </div>
 </nav>
+<div class="container-fluid home">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-6 title">
+				<h1>Upoznaj najbolji projektni tim TVZ-a </h1>
+				<div class="description">
+				<p>Web stranica o timu i članovima tima</p>
+			</div>
+            </div>
+            <div class="col-12 col-lg-6">
+				<div class="logo">
+                    <img src="logo.png">
+			    </div>
+			</div>
+		</div>
+    </div>
+</div>
 
+<!--SREDINA-->
+
+<div class="container-fluid abt">
+    <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 spusti_sliku">
+        <img src="testna.jpg">
+        </div>
+          <div class="col-12 col-lg-6 info">
+           <h2>Projektni tim - Veleumovi TVZ-a</h2>
+          <p class="spustip">Mi smo projektni tim Veleumovi TVZ-a. Počeli smo s djelovanjem 1.3.2021 godine u sklopu kolegija Projektno programiranje</p>
+          <p class="spustip">Mladi i ambiciozni, željni učiti i napredovati. Svi članovi tima pohađaju Tehničko Veleučilište u Zagrebu. Tim se sastoji od 4 člana tima.</p>
+          <p class="spustip">Zajedno timskim radom radimo na projektima, korisničkim zahtjevima, prototipima i na kraju kreiramo i konačno rješenje</p>
+      </div>
+    </div>
+    </div>
+    </div>
+
+        <!--LINK NA O članovima-->
+
+    <div class="container-fluid abt linkPozadina">
+        <div class="container">
+        <div class="row dolje">
+          <div class="col-12 col-lg-12">
+                <div id="naslov1">
+                    <h3>Želiš upoznati naše članove?</h3>
+                </div>
+                <div id="tekst">
+                    <p>Svako od nas je drugačiji, ali svi imamo iste ciljeve. Saznaj više o našim članovima pritiskom na sljedeći gumb</p>
+                <div class="menub spusti_gumb">
+
+                        <a href="clanovi.php">Članovi tima</a>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
 <footer>
 
 <div class="container-fluid footer dolje">

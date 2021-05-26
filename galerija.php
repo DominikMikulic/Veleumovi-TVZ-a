@@ -44,7 +44,53 @@
     </div>
   </div>
 </nav>
+<div class="container-fluid clanovi">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-12 title">
+				<h1>Galerija </h1>
+            </div>
+		</div>
+    </div>
+</div>
+<!-- ==================== -->
+<!-- ==================== -->
+<div class="container" id="gallery">
 
+	<div class="row">
+		<div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+	</div>
+    <div class="row">
+		<div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+	</div>
+    <div class="row">
+		<div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-3 gallery-img">
+            <img src="testna.jpg" alt="">
+        </div>
+	</div>
+</div>
 <footer>
 
 <div class="container-fluid footer dolje">
