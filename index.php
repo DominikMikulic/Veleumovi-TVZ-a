@@ -14,7 +14,36 @@
 </head>
 
 <body>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div id="home">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <div class="center">
+      <a class="navbar-brand" href="#">Veleumovi TVZ-a</a>
+  </div>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse naviprolagodba" id="myNavbar">
+        <ul class="nav navbar-nav navbar-center">
+          <li><a href="#home"><span class="tst">Početna</span></a></li>
+          <li><a href="clanovi.php"><span class="tst">O članovima</span></a></li>
+          <li><a href="galerija.php"><span class="tst">Galerija</span></a></li>
+          <li></li>
+        </ul>
+        <form class="form-inline search navbar-right">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+      </div>
+    </div>
+  </div>
+</nav>
 
 <footer>
 
