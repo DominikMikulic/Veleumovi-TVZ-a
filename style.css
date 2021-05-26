@@ -215,7 +215,57 @@ img{
 }
 
 /*clanovi.php*/
+.clanovi  {
+	background-color: grey;
+	height: 250px;
+	color: white;
+	margin-top: 40px;
+}
 
+
+.title{
+	margin-top: 100px;
+}
+.title h1{
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+	text-shadow: 5px 5px black;
+	text-align: center;
+}
+.social a{
+	font-size: 40px;
+	padding: 20px;
+   
+	color: black;
+	text-align: center;
+	transition: font-size 0.5s;
+	position: relative;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+}
+.social a:hover{
+	color: white;
+	background-color: grey;
+	font-size: 45px;
+	border-radius: 50%;
+}
+.social h2{
+   text-align: center;
+}
+.obojaj{
+	background-color: lightgray;
+}
+.dole{
+	margin-top: 90px;
+}
+.profilna img{
+	width: 80%;
+}
+.spusti_odlomak{
+	padding-top: 60px;
+}
 
 /*galerija.php*/
 #gallery {
